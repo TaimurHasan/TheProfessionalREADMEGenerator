@@ -2,6 +2,7 @@
   ## Description
   The application uses OpenWeatherMap's server-side Weather API to retrieve current and forecasted weather conditions for the relevant city. In more detail, the application uses a combination of Javascript and HTML to allow user input and fetch data from the server based on it. The application's front-end is styled using a combination of CSS stylesheets and Bootstrap frameworks. Within Javascript, the fetch method is used to convert the user's city input into specified coordinates, which are fed into OpenWeatherMap's OneCall API. The Javascript dynamically displays this data to the dashboard, providing the user with the temperature, wind speed, humidity, and the current UV index.
   <br/>
+  <br/>
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Table of Contents
