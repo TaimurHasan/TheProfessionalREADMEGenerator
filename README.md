@@ -69,4 +69,7 @@ application quickly and efficiently.
 [GitHub](https://github.com/TaimurHasan)<br/>
 For any questions, please send an Email to [taimurhasan11@gmail.com](mailto:taimurhasan11@gmail.com)
 
-  
+## Sample README
+
+Below is an example of a README generated using this application:
+![Screenshot of README generated using this application](./assets/images/screencapture-github-TaimurHasan-TheProfessionalREADMEGenerator-blob-main-dist-TheWeatherDashboard-Sample-README-md-2022-04-16-19_41_35.png)
