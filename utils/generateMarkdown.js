@@ -67,7 +67,9 @@ function generateMarkdown(data) {
   return `# ${title}
   ## Description
   ${description}
+  <br/>
   ${renderLicenseBadge(license)}
+  
   ## Table of Contents
   ${renderTableOfContents(license)}
 
@@ -99,7 +101,7 @@ function generateMarkdown(data) {
   
   ## Questions
   
-  [GitHub](https://github.com/${questions.github})
+  [GitHub](https://github.com/${questions.github}) <br/>
   For any questions, please send an Email to [${questions.email}](mailto:${questions.email})
 
   `;
