@@ -3,21 +3,21 @@
 function renderTableOfContents(license) {
   if(license === "None") {
     return `
-    1. [ Installation ](#installation)
-    2. [ Usage ](#usage)
-    3. [ Contributing ](#contributing)
-    4. [ Tests ](#tests)
-    5. [ Questions ](#questions)
-    `
+  1. [ Installation ](#installation)
+  2. [ Usage ](#usage)
+  3. [ Contributing ](#contributing)
+  4. [ Tests ](#tests)
+  5. [ Questions ](#questions)
+  `
   }
 
   return `
-    1. [ Installation ](#installation)
-    2. [ Usage ](#usage)
-    3. [ License ](#license)
-    4. [ Contributing ](#contributing)
-    5. [ Tests ](#tests)
-    6. [ Questions ](#questions)
+  1. [ Installation ](#installation)
+  2. [ Usage ](#usage)
+  3. [ License ](#license)
+  4. [ Contributing ](#contributing)
+  5. [ Tests ](#tests)
+  6. [ Questions ](#questions)
   `
 }
 
@@ -53,9 +53,9 @@ function renderLicenseSection(license) {
   }
 
   return `
-    <a name="license"></a>
-    ## License
-    This project is licensed under the ${license} License - see the [license info](${renderLicenseLink(license)}) for details.
+  <a name="license"></a>
+  ## License
+  This project is licensed under the ${license} License - see the [license info](${renderLicenseLink(license)}) for details.
   `
 }
 
@@ -69,7 +69,7 @@ function generateMarkdown(data) {
   ${description}
   <br/>
   ${renderLicenseBadge(license)}
-  
+
   ## Table of Contents
   ${renderTableOfContents(license)}
 
