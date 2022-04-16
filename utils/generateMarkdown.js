@@ -1,7 +1,28 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
+function renderTableOfContents(license) {
+  if(license === "None") {
+    return `
+    1. [ Installation ](#installation)
+    2. [ Usage ](#usage)
+    3. [ Contributing ](#contributing)
+    4. [ Tests ](#tests)
+    5. [ Questions ](#questions)
+    `
+  }
+
+  return `
+    1. [ Installation ](#installation)
+    2. [ Usage ](#usage)
+    3. [ License ](#license)
+    4. [ Contributing ](#contributing)
+    5. [ Tests ](#tests)
+    6. [ Questions ](#questions)
+  `
+}
+
 function renderLicenseBadge(license) {
-  if(!license) {
+  if(license === "None") {
     return "";
   }
 
@@ -20,12 +41,23 @@ function renderLicenseBadge(license) {
 }
 
 // TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-function renderLicenseLink(license) {}
+function renderLicenseLink(license) {
+  return `https://opensource.org/licenses/${license}`;
+}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {}
+function renderLicenseSection(license) {
+  if(license === "None") {
+    return '';
+  }
+
+  return `
+    <a name="license"></a>
+    ## License
+    This project is licensed under the ${license} License - see ${renderLicenseBadge(license)} for details.
+  `
+}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
@@ -37,12 +69,7 @@ function generateMarkdown(data) {
     ${description}
     ${renderLicenseBadge(license)}
     ## Table of Contents
-    1. [ Installation ](#installation)
-    2. [ Usage ](#usage)
-    3. [ License ](#license)
-    4. [ Contributing ](#contributing)
-    5. [ Tests ](#tests)
-    6. [ Questions ](#questions)
+    ${renderTableOfContents(license)}
 
     <a name="installation"></a>
     ## Installation
@@ -52,9 +79,8 @@ function generateMarkdown(data) {
     ## Usage
     ${usage}
 
-    <a name="license"></a>
-    ## License
-
+    ${renderLicenseSection(license)}
+    
     <a name="contributing"></a>
     ## Contributing
 
