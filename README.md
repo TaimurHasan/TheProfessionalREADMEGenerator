@@ -1,6 +1,15 @@
 # TheProfessionalREADMEGenerator
 ## Description
 When creating a project on GitHub, it is extremely important to have a high-quality README for the application, which provides details such as what the app is for, how to use it, how to report issues, and how to make contributions. TheProfessionalREADMEGenerator is focused on minimizing the time spent on this aspect of a project by automating its creation. This is a command-line application, which will present you with multiple prompts. Once the prompts are answered, it will dynamically create a README.md file based on user inputs, so that you, a time-constrained developer, can devote more time to the actual project! <br/>
+<br/>
+
+## Languages and Technologies Used:
+1. JavaScript
+2. Node.js
+3. NPM (Inquirer)
+
+<br/>
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Table of Contents
@@ -18,7 +27,7 @@ When creating a project on GitHub, it is extremely important to have a high-qual
 ## Installation
 To install and use this application, please follow the steps listed below: <br/>
 1. Download the latest version of node.js on your computer. <br/>
-2. Clone this repository on your computer by opening your command-line interface and using git clone and the HTTPS or SSH URL retrieved from this repository's 'Code' dropdown above (e.g. git clone git@github.com:TaimurHasan/TheProfessionalREADMEGenerator.git). <br/>
+2. Clone this repository on your computer by opening your command-line interface and using git clone and the HTTPS or SSH URL retrieved from this repository's 'Code' dropdown above (e.g. 'git clone git@github.com:TaimurHasan/TheProfessionalREADMEGenerator.git'). <br/>
 3. Navigate or cd into the cloned directory from the CLI (e.g cd ./TheProfessionalREADMEGenerator). <br/>
 4. Initialize the npm registry, as it hosts the required package (inquirer) needed to run this application, using 'npm init -y'. <br/>
 5. Install the inquirer package into this repository using 'npm i inquier'. 6. Run or call the application using 'node index.js' and follow the prompts as shown on the CLI.
