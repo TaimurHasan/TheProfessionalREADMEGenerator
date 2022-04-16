@@ -1,7 +1,10 @@
 # TheWeatherDashboard (Sample README)
   ## Description
   The application uses OpenWeatherMap's server-side Weather API to retrieve current and forecasted weather conditions for the relevant city. In more detail, the application uses a combination of Javascript and HTML to allow user input and fetch data from the server based on it. The application's front-end is styled using a combination of CSS stylesheets and Bootstrap frameworks. Within Javascript, the fetch method is used to convert the user's city input into specified coordinates, which are fed into OpenWeatherMap's OneCall API. The Javascript dynamically displays this data to the dashboard, providing the user with the temperature, wind speed, humidity, and the current UV index.
+  <br/>
+  <br/>
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  
   ## Table of Contents
   
     1. [ Installation ](#installation)
@@ -32,15 +35,19 @@
 
   ## Contributing
 
+  Contributing to this project requires prior notice. Please see below for contact details in the 'Questions' section to reach out for contributing ideas.
+
   <a name="tests"></a>
 
   ## Tests
+
+  This project is tested manually using search examples. Please test by using the application with multiple city names and country codes.
 
   <a name="questions"></a>
   
   ## Questions
   
-  [GitHub](https://github.com/TaimurHasan)
+  [GitHub](https://github.com/TaimurHasan) <br/>
   For any questions, please send an Email to [taimurhasan11@gmail.com](mailto:taimurhasan11@gmail.com)
 
   
