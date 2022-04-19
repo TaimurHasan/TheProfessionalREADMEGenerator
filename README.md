@@ -20,6 +20,7 @@ When creating a project on GitHub, it is extremely important to have a high-qual
 4. [ Contributing ](#contributing)
 5. [ Tests ](#tests)
 6. [ Questions ](#questions)
+6. [ Sample README ](#sample)
 
 
 <a name="installation"></a>
@@ -42,6 +43,7 @@ To use this application, please follow the steps listed below: <br/>
 4. Navigate to the 'dist' sub-directory within the application directory and locate the readme created (file name will match the project name). <br/>
 5. Copy this .md document into your personal project directory and edit as needed.
 
+For more detailed instructions, please watch the [walkthrough](https://drive.google.com/file/d/1I8jeBv_C_j0v7rLPKJH1S-jvsTeEZKrh/view) video!
 
 <a name="license"></a>
 
@@ -68,6 +70,8 @@ application quickly and efficiently.
 
 [GitHub](https://github.com/TaimurHasan)<br/>
 For any questions, please send an Email to [taimurhasan11@gmail.com](mailto:taimurhasan11@gmail.com)
+
+<a name="sample"></a>
 
 ## Sample README
 
